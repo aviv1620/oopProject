@@ -6,6 +6,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		System.out.println("######chengh######");
+		System.out.println("######more chengh######");
 		System.out.println("######Comperator######");
 		testComperator();
 		
