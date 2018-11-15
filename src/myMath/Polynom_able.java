@@ -21,7 +21,7 @@ import java.util.Iterator;
  * 3. Utils
  * 3.1 isZero()
  * 3.2 Polynom derivative() // returns a new Polygon of the derivative ("NIGZERET").
- * 3.3 double f(x) // return this Polygon value at p(x) 
+ * 3.3 double f(x) // return this Pol&aviv&alex&ygon value at p(x) 
  * 3.4 boolean equals(Polygon p) // returns true iff for any x: this.f(x) == p.f(x)
  * 3.5 double root(double x0, double x1, double eps) // assuming (f(x0)*f(x1)<=0, returns f(x2) such that:
  *													//	(i) x0<=x2<=x2 & (ii) {f(x2)<eps
