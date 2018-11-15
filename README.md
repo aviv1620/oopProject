@@ -1,20 +1,25 @@
-#project 1 Aviv and Alex
+Project 1 Aviv and Alex
+
+Graph
+========
+To shoe the grph run class Graph.java.<br/>
+The extremums in color red.
+The area number show on title window or in the console.
+
 Tests
 ========
 Junit tests are contained in PolynomTest.java and MonomTest.java Junit classes
 
 Graph
 ========
-to show the graph run class Graph.java.<br/>
-the extremums in color red.
-the area number show on title window or in the console.
+To show the graph run class Graph.java.<br/>
+The extremums in color red.
+The area number show on title window or in the console.
 
-warning
+Warning
 ========
 The code was tested on java 1.8. Wasn't tested on java 1.9, may cause some problems.
 
-
-
-libraryies.
+Libraryies.
 ========
-gral jar download - https://github.com/eseifert/gral/wiki/download
+Gral jar download - https://github.com/eseifert/gral/wiki/download
