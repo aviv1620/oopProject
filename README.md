@@ -20,6 +20,6 @@ Warning
 ========
 The code was tested on java 1.8. Wasn't tested on java 1.9, may cause some problems.
 
-Libraryies.
+Libraries.
 ========
 Gral jar download - https://github.com/eseifert/gral/wiki/download
