@@ -99,8 +99,8 @@ public class Monom implements function{
 	 * @return true if another equal to to this.
 	 */
 	public boolean equals(Monom another) {
-		return (_coefficient == another.get_coefficient() &&
-				_power == another.get_power());
+		return (_coefficient == 0 && another.get_coefficient() == 0 ||
+				_coefficient == another.get_coefficient() && _power == another.get_power());
 	}
 	//****************** Private Methods and Data *****************
 	
