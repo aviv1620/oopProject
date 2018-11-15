@@ -1,11 +1,5 @@
 Project 1 Aviv and Alex
 
-Graph
-========
-To shoe the grph run class Graph.java.<br/>
-The extremums in color red.
-The area number show on title window or in the console.
-
 Tests
 ========
 Junit tests are contained in PolynomTest.java and MonomTest.java Junit classes
