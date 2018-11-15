@@ -145,7 +145,7 @@ class PolynomTest {
 	 * Adding a Polynom p to a copy of itself.
 	 */
 	@Test
-	void testAddPolynom_able() {
+	void testAddPolynom_ableSame() {
 		
 		Polynom expected = new Polynom("2x^2+-4x+8");
 		p.add(copy);
@@ -157,7 +157,7 @@ class PolynomTest {
 	 * Adding a 'Zero Polynom' to Polynom p.
 	 */
 	@Test
-	void testAddPolynom_able2() {
+	void testAddPolynom_ableZero() {
 		
 		Polynom expected = new Polynom("x^2+-2x+4");
 		p.add(zeroPolynom);
@@ -183,7 +183,7 @@ class PolynomTest {
 	 * Adding zero to a Polynom.
 	 */
 	@Test
-	void testAddMonom2() {
+	void testAddMonomZero() {
 		Monom m = new Monom(0,2);
 		Polynom expected = new Polynom("x^2+-2x+4");
 		p.add(m);
@@ -210,7 +210,7 @@ class PolynomTest {
 	 * Should give 'Zero Polynom'.
 	 */
 	@Test
-	void testSubstract2() {
+	void testSubstractSame() {
 		
 		Polynom expected = new Polynom("is zero");
 		p.substract(copy);
@@ -222,7 +222,7 @@ class PolynomTest {
 	 * Substract 'Zero Polynom' from Polynom p.
 	 */
 	@Test
-	void testSubstract3() {
+	void testSubstractZero() {
 		
 		Polynom expected = new Polynom(p);
 		p.substract(zeroPolynom);
@@ -246,7 +246,7 @@ class PolynomTest {
 	 * Multiply Polynom p by 'Zero Polynom'.
 	 */
 	@Test
-	void testMultiply2() {
+	void testMultiplyZero() {
 	
 		Polynom expected = new Polynom(zeroPolynom); //Multiplying a Polynom by zero should give zero
 		p.multiply(zeroPolynom);
@@ -258,7 +258,7 @@ class PolynomTest {
 	 * Multiply Polynom p by 1.
 	 */
 	@Test
-	void testMultiply3() {
+	void testMultiplyOne() {
 		
 		Polynom one = new Polynom("1");
 		Polynom expected = new Polynom(p); //Multiplying a Polynom by 1 should give the same Polynom.
@@ -271,7 +271,7 @@ class PolynomTest {
 	 * Tests if a copy of a Polynom equals to itself.
 	 */
 	@Test
-	void testEqualsPolynom_able() {
+	void testEqualsPolynom_ableSame() {
 		
 		boolean expected = true;
 		boolean actual = p.equals(copy);
@@ -282,7 +282,7 @@ class PolynomTest {
 	 * Tests if 'Zero Polynom' doesn't equals to Polynom p(not a 'Zero Polynom').
 	 */
 	@Test
-	void testEqualsPolynom_able2() {
+	void testEqualsPolynom_ableZero() {
 		
 		boolean expected = false;
 		boolean actual = p.equals(zeroPolynom);
