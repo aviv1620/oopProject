@@ -8,16 +8,17 @@ import de.erichseifert.gral.plots.lines.LineRenderer;
 import de.erichseifert.gral.plots.points.PointRenderer;
 import de.erichseifert.gral.ui.InteractivePanel;
 
+/*** @author Alex and Aviv
+ * usin gral library.
+ *
+ * link for github:
+ * https://github.com/eseifert/gral */
 public class Graph extends JFrame {
     /** java obligating Version */
 	private static final long serialVersionUID = 1L;
 
 	/**show polynom on screen usin gral library.
-	 * link for github:
-	 * https://github.com/eseifert/gral
-	 * 
 	 * show also the extremums points.
-	 * 
 	 * calculate the area. print it and show on the title window screen.*/
 	public Graph() {
 		//star point and end point to show.
@@ -110,7 +111,7 @@ public class Graph extends JFrame {
 				 
 				 if(y0 <= 0) {//the area end here
 					 endArea = p.root(x, x+eps, eps);
-					 sumArea += p.area(startArea, endArea, eps);				
+					 sumArea -= p.area(startArea, endArea, eps);				
 				 }
 				 
 			 }
